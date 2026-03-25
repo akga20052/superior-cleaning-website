@@ -41,7 +41,7 @@ export default function Contact() {
 
             <form
               className="form"
-              action="https://formsubmit.co/YOUR_EMAIL@example.com"
+              action="https://formsubmit.co/gijoe8807@gmail.com"
               method="POST"
             >
               <input
