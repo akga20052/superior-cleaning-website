@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container">
           <SectionHeader
             title="Our Services"
-            subtitle="Built for busy homeowners, property managers, and businesses that need quality cleaning they can count on."
+            subtitle="Cleaning solutions built for busy homeowners, landlords, renters, and businesses that want dependable quality."
           />
 
           <div className="grid services-grid">
@@ -20,7 +20,7 @@ export default function Home() {
               <h3>Residential Cleaning</h3>
               <p>Keep your home fresh, clean, and comfortable.</p>
               <ul>
-                <li>Bedrooms, bathrooms, kitchens, and living areas</li>
+                <li>Kitchens, bathrooms, bedrooms, and living spaces</li>
                 <li>Dusting, vacuuming, mopping, and trash removal</li>
                 <li>Weekly, biweekly, or monthly options</li>
               </ul>
@@ -38,7 +38,7 @@ export default function Home() {
 
             <div className="card">
               <h3>Deep Cleaning</h3>
-              <p>Top-to-bottom cleaning for spaces needing extra attention.</p>
+              <p>Top-to-bottom cleaning for spaces that need extra attention.</p>
               <ul>
                 <li>Great for first-time cleanings</li>
                 <li>Focus on buildup and neglected areas</li>
@@ -48,11 +48,11 @@ export default function Home() {
 
             <div className="card">
               <h3>Move-In / Move-Out</h3>
-              <p>Detailed cleaning for homes in transition.</p>
+              <p>Detailed cleaning for properties in transition.</p>
               <ul>
-                <li>Great for renters, landlords, and agents</li>
+                <li>Great for renters, landlords, and property managers</li>
                 <li>Inside cabinets and appliances available</li>
-                <li>Helps prepare properties quickly</li>
+                <li>Helps prepare spaces quickly</li>
               </ul>
             </div>
           </div>
@@ -68,8 +68,39 @@ export default function Home() {
       <section className="section alt-section">
         <div className="container">
           <SectionHeader
+            title="Why People Choose Us"
+            subtitle="We focus on consistency, communication, and detailed cleaning that leaves spaces looking their best."
+          />
+
+          <div className="grid services-grid">
+            <div className="card icon-card">
+              <h3>Reliable</h3>
+              <p>Dependable scheduling and professional communication.</p>
+            </div>
+
+            <div className="card icon-card">
+              <h3>Detailed</h3>
+              <p>We pay attention to the areas others often miss.</p>
+            </div>
+
+            <div className="card icon-card">
+              <h3>Flexible</h3>
+              <p>Cleaning options for homes, offices, and special situations.</p>
+            </div>
+
+            <div className="card icon-card">
+              <h3>Customer Focused</h3>
+              <p>Our goal is to make every client feel taken care of.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <SectionHeader
             title="Simple Service Packages"
-            subtitle="Starter packages to help clients understand pricing quickly. Final pricing may vary by home size, condition, and service frequency."
+            subtitle="Clear starter pricing that can be adjusted by square footage, condition, and frequency."
           />
 
           <div className="grid pricing-grid">
@@ -84,7 +115,7 @@ export default function Home() {
             </div>
 
             <div className="card pricing-card featured-card">
-              <span className="badge">Popular</span>
+              <span className="badge">Most Popular</span>
               <h3>Deep Clean</h3>
               <div className="price">Starting at $220</div>
               <ul>
@@ -106,80 +137,85 @@ export default function Home() {
           </div>
 
           <p className="mini center-text">
-            Ask about recurring cleaning discounts for weekly or biweekly
-            clients.
+            Ask about recurring cleaning discounts for weekly or biweekly clients.
           </p>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container about-preview-grid">
-          <div>
-            <h2 className="section-title left-align">Why Choose Us</h2>
-            <ul className="list">
-              <li>Dependable and professional communication</li>
-              <li>Flexible scheduling for homes and businesses</li>
-              <li>Attention to detail and customer satisfaction</li>
-              <li>Clear service options and transparent pricing</li>
-              <li>Focused on quality, trust, and repeat business</li>
-            </ul>
-          </div>
-
-          <div className="card">
-            <h3>About Superior Cleaning Solutions</h3>
-            <p>
-              We’re building a service-focused cleaning company designed to help
-              clients feel proud of their homes and workplaces.
-            </p>
-            <p>
-              Our mission is simple: deliver clean spaces, strong customer
-              service, and a professional experience from booking to final
-              walkthrough.
-            </p>
-            <Link to="/about" className="text-link">
-              Learn more about us →
-            </Link>
-          </div>
         </div>
       </section>
 
       <section className="section alt-soft-section">
         <div className="container">
           <SectionHeader
-            title="Payment Options"
-            subtitle="Offer convenient payment methods so your customers can pay the way they prefer."
+            title="Service Areas"
+            subtitle="Serving clients across South Carolina and Georgia service areas."
           />
 
-          <div className="grid services-grid">
-            <div className="card">
-              <h3>Card Payments</h3>
+          <div className="grid service-area-grid">
+            <div className="card"><h3>Homes</h3><p>Routine and one-time home cleaning.</p></div>
+            <div className="card"><h3>Apartments</h3><p>Move-out and recurring apartment cleanings.</p></div>
+            <div className="card"><h3>Offices</h3><p>Clean, professional spaces for your team and customers.</p></div>
+            <div className="card"><h3>Rental Properties</h3><p>Turnover cleaning for property managers and landlords.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <SectionHeader
+            title="What Clients Love"
+            subtitle="Add your real Google or Facebook reviews here later. For now, these are sample review sections."
+          />
+
+          <div className="grid testimonials-grid">
+            <div className="card testimonial-card">
               <p>
-                Use Stripe as your main checkout for debit and credit card
-                payments.
+                “Very professional, on time, and the house looked amazing when they finished.”
               </p>
-              <a className="btn btn-primary" href="#">
-                Pay with Card
-              </a>
+              <strong>- Happy Client</strong>
             </div>
 
-            <div className="card">
-              <h3>PayPal</h3>
+            <div className="card testimonial-card">
               <p>
-                Add PayPal as an additional option for customers who prefer it.
+                “They did a great deep clean and paid attention to the details that matter.”
               </p>
-              <a className="btn btn-primary" href="#">
-                Pay with PayPal
-              </a>
+              <strong>- Returning Customer</strong>
             </div>
 
-            <div className="card">
-              <h3>Zelle / Cash App</h3>
+            <div className="card testimonial-card">
               <p>
-                Manual payment options can also be listed for direct payments.
+                “Excellent communication and dependable service. I would definitely book again.”
               </p>
-              <p className="mini">
-                Add your handle, phone number, or QR code here.
-              </p>
+              <strong>- Business Client</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section alt-section">
+        <div className="container">
+          <SectionHeader
+            title="Frequently Asked Questions"
+            subtitle="Answering common questions helps customers trust your business faster."
+          />
+
+          <div className="faq-list">
+            <div className="card faq-card">
+              <h3>Do you bring your own cleaning supplies?</h3>
+              <p>Yes, cleaning supplies can be provided unless a client requests otherwise.</p>
+            </div>
+
+            <div className="card faq-card">
+              <h3>Do you offer one-time and recurring cleaning?</h3>
+              <p>Yes, we offer one-time, weekly, biweekly, and monthly options.</p>
+            </div>
+
+            <div className="card faq-card">
+              <h3>How do I get a quote?</h3>
+              <p>You can call, email, or use the contact form to request a quote.</p>
+            </div>
+
+            <div className="card faq-card">
+              <h3>Do you clean offices and commercial spaces?</h3>
+              <p>Yes, we provide cleaning services for both residential and commercial spaces.</p>
             </div>
           </div>
         </div>

@@ -5,10 +5,10 @@ export default function CTA() {
     <section className="cta-section">
       <div className="container cta-box">
         <div>
-          <h2>Ready for a cleaner space?</h2>
+          <h2>Ready for a cleaner home or business?</h2>
           <p>
-            Contact us today for a quote and let us help you keep your home or
-            business looking its best.
+            Contact Superior Cleaning Solutions today for a fast quote and
+            dependable service you can trust.
           </p>
         </div>
 
